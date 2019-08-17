@@ -9,7 +9,7 @@ public class Main {
 
         Selenium selenium = new Selenium();
 
-        selenium.singleField();
+        selenium.radioButtons();
 
     }
 }
