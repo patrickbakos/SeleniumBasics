@@ -18,4 +18,11 @@ class SeleniumTest {
         Selenium selenium = new Selenium();
         assertEquals("lobab represent", selenium.singleField());
     }
+
+    @Test
+    void twoInputFields () {
+
+        Selenium selenium = new Selenium();
+        assertEquals("-7", selenium.twoInputFields());
+    }
 }
